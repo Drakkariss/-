@@ -1773,6 +1773,10 @@ PrefabInstance:
       propertyPath: ScoreText
       value: 
       objectReference: {fileID: 1787031053}
+    - target: {fileID: 5288873102929406784, guid: 0ff9a43fb6f21174aa7059fbf1f5add9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5288873102929406795, guid: 0ff9a43fb6f21174aa7059fbf1f5add9, type: 3}
       propertyPath: m_Name
       value: Snake
@@ -5254,7 +5258,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1757306854}
-  m_RootOrder: 100
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &944148774
 MonoBehaviour:
@@ -5847,7 +5851,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1757306854}
-  m_RootOrder: 105
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1059537969
 MonoBehaviour:
@@ -6721,7 +6725,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1757306854}
-  m_RootOrder: 97
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1304478611
 MonoBehaviour:
@@ -7960,7 +7964,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1757306854}
-  m_RootOrder: 92
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1469832335
 MonoBehaviour:
@@ -9731,12 +9735,14 @@ Transform:
   - {fileID: 1388037858}
   - {fileID: 1454098571}
   - {fileID: 387937111}
+  - {fileID: 1469832334}
+  - {fileID: 1304478610}
   - {fileID: 2002179188}
   - {fileID: 98328211}
   - {fileID: 60489917}
   - {fileID: 1522245459}
   - {fileID: 1072276025}
-  - {fileID: 1160979843}
+  - {fileID: 944148773}
   - {fileID: 1118870492}
   - {fileID: 1650661480}
   - {fileID: 842723757}
@@ -9756,6 +9762,8 @@ Transform:
   - {fileID: 1439053180}
   - {fileID: 244761130}
   - {fileID: 896054317}
+  - {fileID: 1160979843}
+  - {fileID: 1059537968}
   - {fileID: 271491586}
   - {fileID: 1949255057}
   - {fileID: 1868834342}
@@ -9819,20 +9827,16 @@ Transform:
   - {fileID: 1278830977}
   - {fileID: 774884908}
   - {fileID: 1478374226}
-  - {fileID: 1469832334}
   - {fileID: 903761367}
   - {fileID: 969050831}
   - {fileID: 857449212}
   - {fileID: 2054460627}
-  - {fileID: 1304478610}
   - {fileID: 1231489654}
   - {fileID: 779662843}
-  - {fileID: 944148773}
   - {fileID: 536562742}
   - {fileID: 1788549928}
   - {fileID: 1410433345}
   - {fileID: 1909732437}
-  - {fileID: 1059537968}
   - {fileID: 1559088335}
   - {fileID: 4176520}
   - {fileID: 1416521293}

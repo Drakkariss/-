@@ -10,7 +10,7 @@ public class DeadWall : MonoBehaviour
 
             {
 
-                SceneManager.LoadScene("SampleScene");
+                SceneManager.LoadScene(0);
 
             }
         }

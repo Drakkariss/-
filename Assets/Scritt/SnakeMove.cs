@@ -53,10 +53,7 @@ public class SnakeMove : MonoBehaviour
         }
         else
         {
-
-
-            SceneManager.LoadScene("SampleSceneLevel 2");
-
+            SceneManager.LoadScene(0);
         }
     }
 
